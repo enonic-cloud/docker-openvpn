@@ -1,4 +1,8 @@
 # Openvpn docker-compose setup
+[![Docker Stars](https://img.shields.io/docker/stars/enoniccloud/openvpn.svg)](https://hub.docker.com/r/enoniccloud/openvpn/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/enoniccloud/openvpn.svg)](https://hub.docker.com/r/enoniccloud/openvpn/)
+
+
 This is a docker image forked out of the [kylemanna/docker-openvpn](https://github.com/kylemanna/docker-openvpn) repo to be used in Enonic Cloud. Feel free to use it on your own server too as this is made to be compatible with a generic docker-compose setup too.
 
 ## Installation

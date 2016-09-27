@@ -1,5 +1,5 @@
 openvpn:
-  build: .
+  image: enoniccloud/openvpn
   restart: always
   ports:
     - "1194:1194/tcp"

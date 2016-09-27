@@ -1,0 +1,15 @@
+openvpn:
+  build: .
+  restart: always
+  ports:
+    - "1194:1194/tcp"
+  volumes_from:
+    - "storage"
+  cap_add:
+    - NET_ADMIN
+  labels:
+    io.enonic.backup.data: '/etc/openvpn'
+storage:
+  image: busybox
+  volumes:
+      - '/etc/openvpn'

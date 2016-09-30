@@ -29,6 +29,7 @@ storage:
 - Verify that your docker installation is connected to the right host, and run the following commands to configure Openvpn:
   - `docker-compose run --rm openvpn ovpn_genconfig -u udp://your.servers.name.com`
   - `docker-compose run --rm openvpn ovpn_initpki`
+  - set mssfix if default mtu is not 1500 in your network by adding `mssfix 1410` to the end of /etc/openvpn/openvpn.conf
 - Now start up your Openvpn project: `docker-compose up -d openvpn`
 
 

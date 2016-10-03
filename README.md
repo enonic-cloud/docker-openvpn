@@ -1,6 +1,6 @@
 # Openvpn docker-compose setup
 [![Docker Stars](https://img.shields.io/docker/stars/enoniccloud/openvpn.svg)](https://hub.docker.com/r/enoniccloud/openvpn/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/enoniccloud/openvpn.svg)](https://hub.docker.com/r/enoniccloud/openvpn/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/enoniccloud/openvpn.svg)](https://hub.docker.com/r/enoniccloud/openvpn/) [![](https://images.microbadger.com/badges/image/enoniccloud/openvpn.svg)](https://microbadger.com/images/enoniccloud/openvpn "Get your own image badge on microbadger.com")
 
 
 This is a docker image forked out of the [kylemanna/docker-openvpn](https://github.com/kylemanna/docker-openvpn) repo to be used in Enonic Cloud. Feel free to use it on your own server too as this is made to be compatible with a generic docker-compose setup too.
@@ -45,3 +45,4 @@ storage:
 
 ## List client certificates
 - Run the following commands to list certificates: `docker-compose run --rm openvpn ovpn_listclients`
+ 
